@@ -1,0 +1,8 @@
+$bg-color: rgb(3, 3, 99);
+$primary-color: rgb(3, 160, 3);
+$secondary-color: rgb(1, 255, 1);
+
+.app.dark {
+  background-color: $bg-color;
+  color: $primary-color;
+}
