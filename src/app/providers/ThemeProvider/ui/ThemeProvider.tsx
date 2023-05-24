@@ -1,5 +1,5 @@
 import { FC, ReactNode, useMemo, useState } from "react";
-import { LS_THEME_KEY, Theme, ThemeContext } from "./ThemeContext";
+import { LS_THEME_KEY, Theme, ThemeContext } from "../lib/ThemeContext";
 
 interface Props {
   children: ReactNode;
