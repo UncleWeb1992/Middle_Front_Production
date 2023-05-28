@@ -1,0 +1,21 @@
+.btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 5px 10px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  margin-right: 20px;
+  font: inherit;
+  color: var(--inverted-secondary-color);
+}
